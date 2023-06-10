@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+#head{
+    background-color: bisque;
+}
+#head ul{
+    list-style-type: none;
+}
+#head ul li{
+    display: inline-block;
+    
+}
+#head ul li a{
+    font-size: 20px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .8s;   
+}
+#head ul li a:hover{
+    background-color: black;
+    color: white;
+}
